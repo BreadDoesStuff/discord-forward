@@ -333,6 +333,7 @@ void GetEndpoint(char[] sBuffer, int iBufferSize, int iType)
 		strcopy(sBuffer, iBufferSize, sEndpoints[iType]);
 		return;
 	}
+	strcopy(sBuffer, iBufferSize, "");
 }
 
 void GetCommType(char[] sBuffer, int iBufferSize, int iType)
