@@ -62,7 +62,7 @@ public void OnPluginStart()
 
 	ProfilePictureURL = CreateConVar("sbpp_discord_pp_url", "https://sbpp.github.io/img/favicons/android-chrome-512x512.png", "A URL pointing to the profile picture for the webhook.");
 
-	DiscordRoleID = CreateConVar("sbpp_discord_roleid", "", "The Discord role id that you would like mentioned when recieving a report. Leave empty to disable.");
+	DiscordRoleID = CreateConVar("sbpp_discord_roleid", "", "The Discord role id that you would like mentioned when receiving a report. Leave empty to disable.");
 
 	AutoExecConfig(true,"sbpp_discord");
 
